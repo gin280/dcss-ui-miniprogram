@@ -25,5 +25,33 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+.
+├── LICENSE
+├── README.md
+├── babel.config.js
+├── package-lock.json
+├── package.json
+├── public                         //public文件夹下的资源不经过webpack处理
+│   ├── index.html
+│   └── robots.txt
+└── src
+    ├── App.vue
+    ├── api                         
+    │   ├── index.js
+    │   └── request.js
+    ├── assets
+    │   └── logo.png
+    ├── components                 
+    │   └── HelloWorld.vue
+    ├── main.js
+    ├── registerServiceWorker.js    
+    ├── router
+    │   └── index.js
+    ├── store                      
+    │   └── index.js
+    ├── utils
+    └── views                      
+        ├── About.vue
+        └── Home.vue
+```

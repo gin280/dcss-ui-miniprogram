@@ -4,13 +4,15 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 import http from './api/request'
-import { Button } from 'vant';
+import { Button, Tab, Tabs } from 'vant';
 import 'vant/lib/index.css';
 
 Vue.config.productionTip = false
 Vue.prototype.$http = http
 
 Vue.use(Button)
+Vue.use(Tab)
+Vue.use(Tabs)
 
 new Vue({
   router,
